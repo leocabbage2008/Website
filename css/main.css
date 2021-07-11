@@ -31,6 +31,17 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

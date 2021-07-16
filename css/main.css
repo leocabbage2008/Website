@@ -49,12 +49,8 @@ footer {
   font-size: 40px;
 }
 
-div#banner { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  background-color: #00fafa; 
-  width: 100%; 
+href {
+  padding-left: 20px;
 }
 
 /*

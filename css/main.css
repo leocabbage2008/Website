@@ -15,11 +15,10 @@ html {
   color: #000;
   font-size: 1em;
   line-height: 1.4;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -90,72 +89,72 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  p {
-  font-family: 'Lato', sans-serif;
+p {
+  font-family: "Lato", sans-serif;
   padding-left: 20px;
   padding-right: 50px;
-  }
-  h1, 
-  h2, 
-  h3, 
-  h4, 
-  h5, 
-  h6 {
-    color: #222;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 50px;
-  }
-  
-  .headerOk {
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  
-  href {
-    padding-left: 20px;
-  }
-  
-  .topnav {
-    overflow: hidden;
-  }
-  
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  .topnav a:hover {
-    background-color: #333;
-    color: #f2f2f2;
-  }
-  
-  .topnav a.active {
-    background-color: #333;
-    color: white;
-  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 50px;
+}
 
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
+.headerOk {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+href {
+  padding-left: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -329,4 +328,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
